@@ -34,3 +34,28 @@ The function `digitFactorial()` returns an object, whose structure is:
 ## Features
 
 Allows the user to show or hide the solution as described in [Project Euler 034](https://projecteuler.net/problem=34).
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-034) at the main branch.
+
+## Credites
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
+
+
