@@ -3,7 +3,11 @@ const FACTORIALS = [1,1,2,6,24,120,720,5040,40320,362880];
 
 // Function to Show Solution
 function showSolution() {
-    // Set Up Variable
+    /*
+        Set Up Variable and Apply String Interpolation
+        Access Object Properties by using the form of objectName.propertyName
+        For example, digitFactorial().sum to see the sum
+    */
     let txt = `Sum is ${digitFactorial().sum}.  <p>The numbers are ${digitFactorial().numbers}.<br>`;
     // Display Solution in the Browser
     document.getElementById("solution").innerHTML = txt;
