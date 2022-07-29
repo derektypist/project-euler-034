@@ -1,0 +1,29 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Body */
+body {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    padding: 1rem;
+}
+
+/* Subtitle */
+h2 {
+    color: purple;
+}
+
+/* Instructions and Terms */
+.instructions {
+    font-size: 1.25rem;
+}
+
+.terms {
+    color: #D2386C;
+}
+
+/* Solution Information */
+#solution {
+    font-size: 1.5rem;
+    color: #009B77;
+    padding: 1.2rem;
+}
