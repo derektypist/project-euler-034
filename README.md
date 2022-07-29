@@ -22,6 +22,8 @@ As a user, I expect the function `digitFactorial()` to return an object.
 
 As a user, I expect the function `digitFactorial()` to return `{sum: 40730, numbers: [145,40585]}`
 
+As a user, I expect the sum to be 40730 and the numbers to be 145, 40585.
+
 **Information Architecture**
 
 The function `digitFactorial()` returns an object, whose structure is:
@@ -30,6 +32,11 @@ The function `digitFactorial()` returns an object, whose structure is:
     sum: number,
     numbers: array (number)
 }`
+
+To view object properties, use the form of `objectName.propertyName`.
+
+`digitFactorial().sum` is a number
+`digitFactorial().numbers` is an array of numbers
 
 ## Features
 
