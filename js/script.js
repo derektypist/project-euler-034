@@ -31,3 +31,9 @@ function digitFactorial() {
 
     return result;
 }
+
+// Function to Hide Solution
+function hideSolution() {
+    let txt = "";
+    document.getElementById("solution").innerHTML = txt;
+}
