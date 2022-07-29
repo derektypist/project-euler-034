@@ -8,3 +8,26 @@ function showSolution() {
     // Display Solution in the Browser
     document.getElementById("solution").innerHTML = txt;
 }
+
+/*
+    Function to return an object in the form of
+    sum: number,
+    numbers: [number1,number2]
+
+    sum is the sum of all numbers whose sum of all the factorials of
+    all digits add up to the number itself.
+
+*/
+function digitFactorial() {
+    let result = {'sum':0, 'numbers': []};
+    let max = 2177282;
+    for (let i=10;i<=max;i++) {
+        let factorialSum = i.toString().split("").reduce((sum,digit) => sum + FACTORIALS[digit], 0);
+        if (factorialSum === i) {
+            result['sum'] += i;
+            result['numbers'].push(i);
+        }
+    }
+
+    return result;
+}
