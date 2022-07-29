@@ -19,7 +19,10 @@ function showSolution() {
 
 */
 function digitFactorial() {
-    let result = {'sum':0, 'numbers': []};
+    let result = {
+        sum: 0,
+        numbers: []
+    }
     let max = 2177282;
     for (let i=10;i<=max;i++) {
         let factorialSum = i.toString().split("").reduce((sum,digit) => sum + FACTORIALS[digit], 0);
