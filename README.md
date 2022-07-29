@@ -10,7 +10,13 @@ Information at [Project Euler 034](https://projecteuler.net/problem=34)
 
 ## UX
 
+**Getting Started**
+
+Click on the Show Solution Button to show the solution.  Click on the Hide Solution Button to hide the solution.
+
 **User Stories**
+
+As a user, I can show or hide the solution.
 
 As a user, I expect the function `digitFactorial()` to return an object.
 
@@ -24,3 +30,7 @@ The function `digitFactorial()` returns an object, whose structure is:
     sum: number,
     numbers: array (number)
 }`
+
+## Features
+
+Allows the user to show or hide the solution as described in [Project Euler 034](https://projecteuler.net/problem=34).
